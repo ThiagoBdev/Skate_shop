@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.titulo{
+    color: rgb(209, 209, 206);
+    margin-left: 300px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.links,
+.links a{
+    color: rgb(211, 201, 201);
+    text-align: end;
+    margin-right: 12px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.links a{
+    display: inline;
+}
+
+
+header{
+    background-color: rgb(130, 98, 59);
+    padding: 16px 0;
+    border: solid rgb(110, 93, 67);
+    margin-bottom: 10px;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#Meio{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: justify;
+}
+
+img{
+    margin-left: 100px;
+    border-radius: 8px;
+    width: 400px;
+    height: 300px;
+}
+
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 6px;
+}
+
+form button{
+    background-color: rgb(130, 98, 59);
+}
+
+form button:hover{
+    background-color: #9f9a34;
+}
+
+input:focus, textarea:focus{
+    outline-color: #182c61;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer h3{
+    opacity: 0.5;
+}
+
+footer{
+    background-color: rgb(130, 98, 59);
+    padding: 16px 0;
+    text-align: end;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
