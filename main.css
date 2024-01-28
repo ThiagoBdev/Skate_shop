@@ -1,95 +1,91 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-.titulo{
-    color: rgb(209, 209, 206);
-    margin-left: 300px;
-    font-family: 'Oswald', sans-serif;
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffa767;
+    margin: 0;
 }
 
-.links,
-.links a{
-    color: rgb(211, 201, 201);
-    text-align: end;
-    margin-right: 12px;
-    font-family: 'Oswald', sans-serif;
+header {
+    background-color: #dd4203;
+    position: relative;
 }
 
-.links a{
-    display: inline;
+h1 {
+    color: white;
+    padding: 20px;
 }
 
-
-header{
-    background-color: rgb(130, 98, 59);
-    padding: 16px 0;
-    border: solid rgb(110, 93, 67);
+.links {
+    position: absolute;
+    bottom: 0;
+    right: 40px;
     margin-bottom: 10px;
 }
 
-body{
-    background-color: rgb(255, 255, 255);
+.links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-#Meio{
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    align-items: center;
-    text-align: justify;
+.links li {
+    display: inline-block;
+    margin-right: 20px;
 }
 
-img{
-    margin-left: 100px;
-    border-radius: 8px;
-    width: 400px;
-    height: 300px;
+.links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
+.links a:hover {
+    border-bottom: 2px solid white;
+}
 
-form input,
-form textarea,
-form button{
+.container form{
     display: block;
-    width: 320px;
-    margin-bottom: 8px;
-    padding: 6px;
 }
 
-form button{
-    background-color: rgb(130, 98, 59);
+.container input{
+    display: block;
+    padding: 10px;
+    border-radius: 90px;
+    width: 15%;
 }
 
-form button:hover{
-    background-color: #9f9a34;
+button{
+    background-color: #07b31e;
+    padding: 10px;
+    border-radius: 90px;
+    color: #fff;
+    width: 15%;
+    cursor: pointer;
 }
 
-input:focus, textarea:focus{
-    outline-color: #182c61;
+button:hover{
+    background-color: #72ec6b;
 }
 
-form textarea{
-    resize: none;
-    height: 180px;
+.Meio{
+    display: flex;
 }
 
-h3{
-    color: rgb(0, 0, 0);
-    font-family: 'Montserrat', sans-serif;
+section {
+    padding: 40px;
 }
 
-footer h3{
-    opacity: 0.5;
-}
-
-footer{
-    background-color: rgb(130, 98, 59);
-    padding: 16px 0;
-    text-align: end;
-    position: absolute;
+footer {
+    background-color: #e65b1c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
